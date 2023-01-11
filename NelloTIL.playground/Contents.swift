@@ -45,3 +45,57 @@ enum Direction: String {
 let up = Direction(rawValue: "up") // -> up
 let down = Direction(rawValue: "downValue") // -> down
 let otherDirection = Direction(rawValue: "right") // -> nil
+
+// MARK: - Operator
+// arithmetic operator
+let first = 10
+let second = 3
+
+let sum = first + second
+let diff = first - second
+
+let multiple = first * second
+let divided = first / second
+
+let remainder = first % second
+
+// operator overloading
+let str1 = "aaa"
+let str2 = "bbb"
+
+let str = str1 + str2 // "aaabbb"
+
+let names1 = ["April", "Bob"]
+let names2 = ["Chuck", "David"]
+
+let names = names1 + names2 // ["April", "Bob", "Chuck", "David"]
+
+// compound operator
+var price1 = 10
+price1 += 1 // 11
+
+var price2 = 20
+price2 -= 5 // 15
+
+var price3 = 30
+price3 *= 3 // 90
+
+var price4 = 40
+price4 /= 2 // 20
+
+
+var quote = "Hello, Swift "
+quote += "Playgrounds" // "Hello, Swift Playgrounds"
+
+// comparison operator
+let score1 = 6
+let score2 = 4
+
+score1 == score2 // false
+score1 != score2 // true
+
+score1 > score2 // true
+score1 >= score2 // true
+
+score1 < score2 // false
+

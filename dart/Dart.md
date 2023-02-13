@@ -48,11 +48,17 @@
 
 ## Collection Type
 ### 1. List
+<pre>
+<code>
     // 초기화
     List<String> fruits = []; // 빈 값 초기화
     List<String> fruits = ['Apple', 'Banana', 'Kiwi']; // 값 주면서 초기화
     List<String> fruits = List.from(['Apple', 'Banana', 'Kiwi']); // from function 사용
+</code>
+</pre>
 
+<pre>
+<code>
     // 고정 사이즈 할당 => add(), removeAt과 같이 사이즈 변경 function 사용 불가.
     List<String> fruits = List.filled(3, ''); 
     fruits[0] = 'Apple';
@@ -64,9 +70,10 @@
     fruits.add('Apple');
     fruits.add('Banana');
     fruits.add('Kiwi');
-
+    
+<pre>
+<code>
     // functions
-
     // join: 각 요소를 합쳐서 하나의 문자열로 만듬 
     List<String> fruits = ['Apple', 'Banana', 'Kiwi'];
     print(fruits.join(', '));

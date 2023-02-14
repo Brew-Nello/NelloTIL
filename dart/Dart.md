@@ -70,7 +70,8 @@
     fruits.add('Apple');
     fruits.add('Banana');
     fruits.add('Kiwi');
-    
+    </code>
+    </pre>
 <pre>
 <code>
     // functions
